@@ -1,0 +1,23 @@
+# SPAMMER
+
+
+import pyautogui, time
+
+pyautogui.FAILSAFE = True
+
+
+time.sleep(10)
+f = open("beemovie.txt", 'r')
+
+
+for word in f:
+    pyautogui.typewrite(word)
+    pyautogui.press("enter")
+    time.sleep(0.1)
+    
+    
+    
+    
+    
+    
+    
