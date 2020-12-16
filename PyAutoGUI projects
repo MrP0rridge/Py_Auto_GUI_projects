@@ -51,3 +51,29 @@ for word in f:
    
 ##################################################################################################   
 
+
+# ACKNOWLEDGER
+
+import pyautogui
+
+pyautogui.failsafecheck()
+
+acknowledge1 = pyautogui.locateOnScreen('ack1.png')
+pyautogui.moveTo(acknowledge1)
+pyautogui.sleep(0.1)
+pyautogui.doubleClick(acknowledge1)
+
+pyautogui.moveRel(0, 70)
+pyautogui.doubleClick()
+pyautogui.write("your custom message")
+
+imageSaveClose = pyautogui.locateOnScreen('SaveClose.png')
+pyautogui.moveTo(ImageSaveClose)
+pyautogui.click(ImageSaveClose)
+
+
+pyautogui.sleep(0.3)
+
+
+
+##########################################################################################
