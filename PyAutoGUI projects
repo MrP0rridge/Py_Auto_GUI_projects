@@ -17,9 +17,8 @@ for word in f:
     pyautogui.press("enter")
     time.sleep(0.1)
     
-    
-    
-    
+
+   
     
  ###############################################################################################
  
@@ -33,3 +32,22 @@ pyautogui.alert(pyautogui.position())
 
 
 #################################################################################################
+
+# SPAMMER 2
+
+Import pyautogui. time
+
+pyautogui.FAILSAFE = True
+
+stime.sleep(10)
+f = open('Hi.txt', 'r')
+
+for word in f:
+    for word in word.split():
+    pyautogui.typewrite(word)
+    time.sleep(0.3)
+    pyautogui.press('enter')
+    time.sleep(0.3)
+   
+##################################################################################################   
+
